@@ -62,7 +62,7 @@ public class Main {
 
         System.out.println("Задача 8");
 
-        int monthTotal8 = 4;
+        int monthTotal8 = 12;
         int amountMonth8 = 29000;
         int amountTotal8 = 0;
 
