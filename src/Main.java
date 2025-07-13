@@ -76,12 +76,12 @@ public class Main {
         System.out.println("Задача 9");
         int monthTotal9 = 4; // количество месяцев вклада
         float amountStart9 = 9500; // начальная сумма вклада
-        float percent = 1.12f;
+        float percent = 0.01f;
         float amountTotal9 = amountStart9;
 
         for (int month = 1; month <= monthTotal9; month++)
         {
-            amountTotal9 = amountTotal9 * percent;
+            amountTotal9 = amountTotal9 + amountTotal9 * percent;
             System.out.println("Месяц " + month + ", сумма накоплений равна " + amountTotal9 + " рублей.");
         }
         System.out.println("");
